@@ -2,7 +2,7 @@
 package com.mycompany.apsii;
 
 
-public class Salario implements ModoDeReceber {
+public class Trabalhar implements ModoDeReceber {
     @Override
     public void receber(){
         System.out.println("Recebe Integral");
