@@ -9,14 +9,10 @@ package com.mycompany.apsii;
  *
  * @author pedfe
  */
+public class ComunicarAvaliadoPorSMS implements Comunicador {
 
-/**
- *
- * @author pedfe
- */
-public class NotificarAvaliacaoPorSMS implements Avaliador {
     @Override
-    public void notificarServidor() {
-         System.out.println("[SMS]: Notificação enviada!");
-    }    
+    public void comunicar() {
+        System.out.println("Avaliado foi comunicado via mensagem de texto SMS.");
+    }
 }
