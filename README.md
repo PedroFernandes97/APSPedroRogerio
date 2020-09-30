@@ -32,5 +32,7 @@ folha de pagamento dos servidores. O pattern adotado foi o Template, visto que o
 para que o relatorio seja gerado sem erros e enviado aos setores de RH e Contabilidade. O metoodo que é de responsabilidade do RH e 
 da contabilidade é  apenas o 'receberRelatorio', que foi encappsulado como protected. FolhaPagamento é um pacote a parte.
 
+Observer: 
+
 Usuario: rogeriogm@unipam.edu.br = Rogerio Matoso.
 Usuario: pedrohff@unipam.edu.br = Pedro Fernandes.
