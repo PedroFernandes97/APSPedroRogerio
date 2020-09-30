@@ -9,7 +9,10 @@ package com.mycompany.apsii;
  *
  * @author pedfe
  */
-public abstract interface Avaliador {
-    public abstract void notificarServidor();
-}
+public class ComunicarAvaliadoPorEmail implements Comunicador {
 
+    @Override
+    public void comunicar() {
+        System.out.println("Avaliado foi comunicado via email.");
+    }
+}
