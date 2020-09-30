@@ -33,7 +33,9 @@ para que o relatorio seja gerado sem erros e enviado aos setores de RH e Contabi
 da contabilidade é  apenas o 'receberRelatorio', que foi encappsulado como protected. FolhaPagamento é um pacote a parte.
 
 Observer
-Criamos um assistente que realiza a notificação de desempenho do avaliado
+Criamos um cenário onde precisávamos notificar o servidor sobre a conclusão do processo de pagamento. A classe "Comunicador" é a responsável 
+por realizar a notificação do servidor após o pagamento for processado, sobre a vantagem de o servidor poder escolher por
+quais vias quer ser notificado.
 
 Usuario: rogeriogm@unipam.edu.br = Rogerio Matoso.
 Usuario: pedrohff@unipam.edu.br = Pedro Fernandes.
