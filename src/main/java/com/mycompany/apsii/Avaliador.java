@@ -9,7 +9,7 @@ package com.mycompany.apsii;
  *
  * @author pedfe
  */
-public abstract interface NotificadorDeUsuarios {
-    public abstract void notificarUsuario();
+public abstract interface Avaliador {
+    public abstract void notificarServidor();
 }
 

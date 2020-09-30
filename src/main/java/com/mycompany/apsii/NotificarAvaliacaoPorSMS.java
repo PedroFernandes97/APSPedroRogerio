@@ -14,9 +14,9 @@ package com.mycompany.apsii;
  *
  * @author pedfe
  */
-public class NotificarPorSMS implements NotificadorDeUsuarios {
+public class NotificarAvaliacaoPorSMS implements Avaliador {
     @Override
-    public void notificarUsuario() {
-         System.out.println("[SMS] Notificação enviada!");
+    public void notificarServidor() {
+         System.out.println("[SMS]: Notificação enviada!");
     }    
 }

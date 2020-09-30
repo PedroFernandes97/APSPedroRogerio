@@ -9,9 +9,9 @@ package com.mycompany.apsii;
  *
  * @author pedfe
  */
-public class NotificarPorEmail implements NotificadorDeUsuarios {
+public class NotificarAvaliacaoPorEmail implements Avaliador {
     @Override
-    public void notificarUsuario() {
+    public void notificarServidor() {
          System.out.println("[Celular] Notificação enviada");
     }    
 }
