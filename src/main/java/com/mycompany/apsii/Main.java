@@ -10,8 +10,8 @@ public class Main {
     public static void main(String[] args) {
         Servidor s = new Servidor();
         Pagamento f = new RelatorioPagamentoContabilidade();
-        s.adicionarMetodoDeComunicacaoDoAvaliador(new ComunicarAvaliadoPorEmail());
-       // s.adicionarMetodoDeComunicacaoDoAvaliador(new ComunicarAvaliadoPorSMS());
+        f.setModoDeComunicacao(new ComunicarPorEmail());
+        f.setModoDeComunicacao(new ComunicarPorSMS());
         s.setRecebe(new Trabalhar());
         s.setAvaliado(new Normal());
         s.receber();
