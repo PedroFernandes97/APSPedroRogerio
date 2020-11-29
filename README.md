@@ -51,6 +51,10 @@ para que todos os servidores sejam contemplados nessa necessidade de cadastramen
 de trabalho. Aqueles que possuem maior desenvoltura podem seguir todo o processo de cadastramento no portal. Outros com maior dificuldade podem seguir
 a forma automattica de cadastramento com poucos 'clicks' do mouse.
 
+Singleton
+Em sequenncia às providencias adotadas para o cadastro no Portal, o servidor que efetuar login, ao mudar de estação de trabalho por qualquer exigencia
+do sreviço e tentar se logar no Portal  novamente terá  o seu login anterior retornado, cumpridas as regras de negocio... 
+
 
 Usuario: rogeriogm@unipam.edu.br = Rogerio Matoso.
 Usuario: pedrohff@unipam.edu.br = Pedro Fernandes.
