@@ -37,5 +37,20 @@ Criamos um cenário onde precisávamos notificar o servidor sobre a conclusão d
 por realizar a notificação do servidor após o pagamento for processado, sobre a vantagem de o servidor poder escolher por
 quais vias quer ser notificado.
 
+                                       ====================================
+                                              ATUALIZAÇÃO DE PROJETO
+                                                    APS 04dez2020
+                                        DESCRICAO DA UTILIZACAO E VANTAGENS
+                                        ====================================
+
+Facede
+No cenario que estamos desenvolvendo, o servidor tem acesso a todas as informações de seu relacionamento com o Estado através de um portal,
+o Portal do Servidor. Para ter acesso a esse portal, em seu primeiro acesso o servidor deverá serguir uma série de procediimentos,que, apesar 
+de serem comuns à maioria das pessoas integradas ao cotidiano digital, representa dificuldade para outros mennos preparados. Assim Adotamos o Facade
+para que todos os servidores sejam contemplados nessa necessidade de cadastramento para a obtenção de todas as informações relativas ao seu contrato
+de trabalho. Aqueles que possuem maior desenvoltura podem seguir todo o processo de cadastramento no portal. Outros com maior dificuldade podem seguir
+a forma automattica de cadastramento com poucos 'clicks' do mouse.
+
+
 Usuario: rogeriogm@unipam.edu.br = Rogerio Matoso.
 Usuario: pedrohff@unipam.edu.br = Pedro Fernandes.
