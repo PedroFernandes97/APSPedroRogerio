@@ -11,6 +11,23 @@ public class Servidor {
     private ModoDeReceber recebe;
     private Avaliacao avaliado;
     private Facilitador acessoDireto;
+    
+
+    public Facilitador getAcessoDireto() {
+        return acessoDireto;
+    }
+
+    public void setAcessoDireto(Facilitador acessoDireto) {
+        this.acessoDireto = acessoDireto;
+    }
+
+    public AcessarPortal getAcesso() {
+        return acesso;
+    }
+
+    public void setAcesso(AcessarPortal acesso) {
+        this.acesso = acesso;
+    }
     private AcessarPortal acesso;
     
     public void receber(){
