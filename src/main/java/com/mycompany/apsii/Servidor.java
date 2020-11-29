@@ -1,6 +1,8 @@
 
 package com.mycompany.apsii;
 
+import com.mycompany.apsii.apsii_U.AcessarPortal;
+import com.mycompany.apsii.apsii_U.Facilitador;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,6 +10,8 @@ import java.util.List;
 public class Servidor {
     private ModoDeReceber recebe;
     private Avaliacao avaliado;
+    private Facilitador acessoDireto;
+    private AcessarPortal acesso;
     
     public void receber(){
         this.recebe.receber();
