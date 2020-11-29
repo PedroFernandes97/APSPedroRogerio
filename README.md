@@ -43,7 +43,7 @@ quais vias quer ser notificado.
                                         DESCRICAO DA UTILIZACAO E VANTAGENS
                                         ====================================
 
-Facede
+Facade
 No cenario que estamos desenvolvendo, o servidor tem acesso a todas as informações de seu relacionamento com o Estado através de um portal,
 o Portal do Servidor. Para ter acesso a esse portal, em seu primeiro acesso o servidor deverá serguir uma série de procediimentos,que, apesar 
 de serem comuns à maioria das pessoas integradas ao cotidiano digital, representa dificuldade para outros mennos preparados. Assim Adotamos o Facade
