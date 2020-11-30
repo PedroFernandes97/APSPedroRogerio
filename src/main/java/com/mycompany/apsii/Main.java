@@ -3,6 +3,8 @@ package com.mycompany.apsii;
 import com.mycompany.apsii.FolhaPagamento.Pagamento;
 import com.mycompany.apsii.FolhaPagamento.RelatorioPagamentoRH;
 import com.mycompany.apsii.FolhaPagamento.RelatorioPagamentoContabilidade;
+import com.mycompany.apsii.apsii_U.Cadastro;
+import com.mycompany.apsii.apsii_U.CadastroBuilder;
 import com.mycompany.apsii.apsii_U.Facilitador;
 
 
@@ -10,7 +12,7 @@ public class Main {
    
     public static void main(String[] args) {
         Servidor s = new Servidor();
-        Pagamento f = new RelatorioPagamentoContabilidade();         
+        Pagamento f = new RelatorioPagamentoContabilidade();
         f.setModoDeComunicacao(new ComunicarPorEmail());
         f.setModoDeComunicacao(new ComunicarPorSMS());
         s.setRecebe(new Trabalhar());
@@ -19,8 +21,5 @@ public class Main {
         s.progredir();
         s.promover();       
         f.rodarFolha();
-        
-        
-    }
-    
+    }   
 }
