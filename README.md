@@ -52,9 +52,13 @@ de trabalho. Aqueles que possuem maior desenvoltura podem seguir todo o processo
 a forma automattica de cadastramento com poucos 'clicks' do mouse.
 
 Singleton
-Em sequenncia às providencias adotadas para o cadastro no Portal, o servidor que efetuar login, ao mudar de estação de trabalho por qualquer exigencia
+Em sequencia às providencias adotadas para o cadastro no Portal, o servidor que efetuar login, ao mudar de estação de trabalho por qualquer exigencia
 do sreviço e tentar se logar no Portal  novamente terá  o seu login anterior retornado, cumpridas as regras de negocio... 
 
+Builder
+É necessário que tenhamos uma classe para cadastro de pessoa física ou jurídica para quando o usuário acessar o portal pelo método padrão, ou seja,
+método que requer todo o processo de cadastro. Foi utilizado o pattern builder para facilitar a leitura e construção da classe com as informações
+necessárias.
 
 Usuario: rogeriogm@unipam.edu.br = Rogerio Matoso.
 Usuario: pedrohff@unipam.edu.br = Pedro Fernandes.
